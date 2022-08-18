@@ -4,10 +4,10 @@ body {
     text-align: center;
     background-image: url(./uwp410248.png);
     background-size: 1400px, 2800px;
-    background-repeat: space;
+    background-repeat: no-repeat;
     background-position-y: 1px;
     background-position-x: center;
- 
+
 }
 
 .buttton{
@@ -24,6 +24,8 @@ body {
     cursor: pointer;
     margin: auto;
     background: #fc9e47;
+    font-family: Calibri;
+    font-weight: bolder;
   }
   
 .myButton:hover{
