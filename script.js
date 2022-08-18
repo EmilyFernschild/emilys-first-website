@@ -1,6 +1,6 @@
-const h3 = document.createElement("h3");
-h3.textContent = "Flatiron School Student";
-document.querySelector("body").appendChild(h3);
+const h4 = document.createElement("h4");
+h4.textContent = "emilyfernschild@gmail.com";
+document.querySelector("body").appendChild(h4);
 
 function myFunc() {
 const bio = document.querySelector("#myBio");

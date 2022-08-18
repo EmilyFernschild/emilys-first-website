@@ -1,12 +1,21 @@
 body {
     background: rgb(198, 198, 253);
+    align-content: center;
+    text-align: center;
+    background-image: url(./uwp410248.png);
+    background-size: 1400px, 2800px;
+    background-repeat: space;
+    background-position-y: 1px;
+    background-position-x: center;
+ 
 }
 
 .buttton{
     position: relative;
     top: 40vh;
   }
-  .myButton{
+
+.myButton{
     border: 2px solid #030303;
     width: 100px;
     text-align: center;
@@ -17,16 +26,26 @@ body {
     background: #fc9e47;
   }
   
-  .myButton:hover{
+.myButton:hover{
     background: #d38bbd;
   }
 
-  .hide{
+.hide{
      visibility: hidden;
 }
-  #myBio{
-    font-size: 16px;
+
+ #myBio{
+    padding: 10px;
+    font-size: 18px;
     margin-bottom: 30px;
+    background-color: rgba(0, 203, 253, 0.4);
     text-align: center;
+    margin: auto;
+    width:700px;
+    font-family: Calibri;
+    font-display: inherit;
   }
-  
+
+  h4 {
+    font-weight: lighter;
+  }
