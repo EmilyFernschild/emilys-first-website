@@ -50,4 +50,26 @@ body {
 
   h4 {
     font-weight: lighter;
+    margin: 0;
+  }
+
+  ul{
+    list-style-type: circle;
+    list-style-position: inside;
+    text-align: center;
+    vertical-align: middle;
+    padding-left: 1px;
+    color: #030303;
+  }
+
+  li {
+    padding-bottom: 8px;
+  }
+
+  a:link {
+    color: blue;
+  }
+
+  a:visited {
+    color: rgb(108, 1, 112);
   }
